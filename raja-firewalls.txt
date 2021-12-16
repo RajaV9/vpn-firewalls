@@ -227,7 +227,7 @@ iptables -A OUTPUT -p udp --dport 14335 -j DROP
 ----------------------------------------------
 nfo-bye patch
 
-@aresovh
+
 
 iptables -t mangle -A PREROUTING -s 106.108.20.227 -j DROP
 DROP LENGTH
@@ -246,7 +246,7 @@ iptables -A INPUT -p udp -i eth0 ! -s 0.0.0.0/0 --dport 39356 -j DROP
 BLOCK SOURCE PORT
 iptables -A OUTPUT -p udp --dport 5353 -j DROP
 
-@aresovh
+
 iptables -t mangle -A PREROUTING -s 133.154.184.21 -j DROP
 DROP LENGTH
 iptables -A INPUT -p udp -m length --length 190 -j DROP
