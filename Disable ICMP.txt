@@ -1,0 +1,9 @@
+sudo su
+
+
+
+sudo iptables -A INPUT -p icmp --icmp-type any -j REJECT
+
+sudo iptables -A OUTPUT -p icmp --icmp-type any -j REJECT 
+
+iptables-save
