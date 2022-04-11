@@ -1,0 +1,21 @@
+This will teach you how to change SSH port from 22 to any port (3333 in this case)
+
+
+
+
+sudo su
+
+sudo nano /etc/ssh/sshd_config
+
+
+Change the following:
+
+From:
+#Port 22
+
+To:
+Port 3333
+
+
+
+sudo systemctl reload sshd
