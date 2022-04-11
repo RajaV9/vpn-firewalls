@@ -19,3 +19,7 @@ Port 3333
 
 
 sudo systemctl reload sshd
+
+
+
+Ubuntu: sudo ufw allow 3333/tcp
