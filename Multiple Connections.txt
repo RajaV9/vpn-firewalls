@@ -13,6 +13,12 @@ cd /etc/openvpn/server/
 nano server.conf
 
 
-add this to the list: duplicate-cn
+add this to the list: 
+duplicate-cn
+
 
 then save it.
+
+
+then do:
+service openvpn restart
