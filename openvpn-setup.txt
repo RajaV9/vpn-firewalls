@@ -1,0 +1,11 @@
+apt-get update
+---------------
+apt-get upgrade
+---------------
+apt install wget
+----------------
+wget https://raw.githubusercontent.com/    /openvpn-install/master/openvpn-install.sh
+------------------------------------------------------------------------------------
+chmod 777 openvpn-install.sh
+------------------------------
+bash openvpn-install.sh
