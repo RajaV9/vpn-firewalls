@@ -1,0 +1,14 @@
+sudo su
+
+
+chmod 777 *
+
+
+sudo chown -R ubuntu:ubuntu .
+
+
+
+sudo chmod 777 /root/
+
+
+sudo chmod 777 /root/raja.ovpn
